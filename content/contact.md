@@ -14,6 +14,10 @@ fields:
   type: textarea
   name: message
   label: Message
+form:
+  recipient: test@example.com
+  submit_text: ''
+  fields: []
 
 ---
 Use the form below to send us a message.
