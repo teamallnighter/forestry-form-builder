@@ -8,7 +8,7 @@ fields:
   hidden: true
   config:
     required: true
-  default: text
+  default: radio
   description: Denotes field type. Do not change this.
 - type: text
   name: name
@@ -27,3 +27,6 @@ fields:
   name: description
   label: Description
   description: Help text to display beneath field. Optional.
+- type: list
+  name: options
+  label: Options
