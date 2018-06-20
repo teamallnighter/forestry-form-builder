@@ -28,5 +28,8 @@ fields:
     name: fields
   config:
     labelField: title
+- type: field_group
+  name: test_ns
+  label: test_ns
 pages:
 - content/survey.md
