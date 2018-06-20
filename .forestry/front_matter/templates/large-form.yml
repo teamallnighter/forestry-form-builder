@@ -32,5 +32,10 @@ fields:
       name: fields
     config:
       labelField: title
+  - type: text
+    name: type
+    label: Type
+    hidden: true
+    default: long
 pages:
 - content/survey.md
