@@ -1,0 +1,19 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: recipient
+  label: Recipient
+  description: E-mail address where submissions should be sent
+  config:
+    required: true
+- type: text
+  name: submit_text
+  label: Submit Text
+  description: Text to show on submit button
+  default: Submit
+- type: include
+  name: fields
+  label: Fields
+  template: form-fields
