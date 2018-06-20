@@ -1,0 +1,27 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: recipient
+  label: Recipient
+  description: E-mail address that should receive submissions
+  config:
+    required: true
+- type: text
+  name: submit_text
+  label: Submit Text
+  description: Text to display on submit button
+- type: field_group_list
+  name: sections
+  label: Sections
+  fields:
+  - type: text
+    label: Title
+    name: title
+  - type: include
+    template: form-fields
+    label: Fields
+    name: fields
+  config:
+    labelField: title
