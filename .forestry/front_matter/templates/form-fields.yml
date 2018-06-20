@@ -1,0 +1,13 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: blocks
+  template_types:
+  - checkbox
+  - radio
+  - select
+  - textarea
+  - text-field
+  label: Form Fields
+  name: fields
