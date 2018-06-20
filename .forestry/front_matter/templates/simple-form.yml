@@ -3,6 +3,9 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
+  name: title
+  label: Title
+- type: text
   name: recipient
   label: Recipient
   description: E-mail address where submissions should be sent
