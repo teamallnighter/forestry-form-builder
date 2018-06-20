@@ -4,6 +4,15 @@ draft = true
 recipient = "survey-answers@example.com"
 submit_text = ""
 title = "Survey"
+[form]
+recipient = "survey-responses@example.com"
+submit_text = ""
+[[form.sections]]
+title = "Your Info"
+[[form.sections.fields]]
+name = "name"
+template = "text-field"
+type = "text"
 [[sections]]
 title = "Your Information"
 [[sections.fields]]
