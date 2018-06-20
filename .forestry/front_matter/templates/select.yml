@@ -8,7 +8,7 @@ fields:
   hidden: true
   config:
     required: true
-  default: text
+  default: select
   description: Denotes field type. Do not change this.
 - type: text
   name: name
