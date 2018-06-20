@@ -7,6 +7,7 @@ title = "Survey"
 [form]
 recipient = "survey-responses@example.com"
 submit_text = ""
+type = "long"
 [[form.sections]]
 title = "Your Information"
 [[form.sections.fields]]
