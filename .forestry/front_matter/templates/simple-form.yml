@@ -23,5 +23,10 @@ fields:
     template: form-fields
     label: Fields
     name: fields
+  - type: text
+    name: type
+    label: Type
+    hidden: true
+    default: simple
 pages:
 - content/contact.md
