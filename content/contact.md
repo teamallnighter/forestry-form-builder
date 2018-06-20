@@ -17,7 +17,10 @@ fields:
 form:
   recipient: test@example.com
   submit_text: ''
-  fields: []
+  fields:
+  - template: text-field
+    type: text
+    name: name
 
 ---
 Use the form below to send us a message.
