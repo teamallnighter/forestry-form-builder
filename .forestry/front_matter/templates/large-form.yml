@@ -29,7 +29,11 @@ fields:
   config:
     labelField: title
 - type: field_group
-  name: test_ns
-  label: test_ns
+  name: form
+  label: Form
+  fields:
+  - type: text
+    name: recipient
+    label: Recipient
 pages:
 - content/survey.md
