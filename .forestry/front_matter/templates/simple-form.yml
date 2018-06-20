@@ -20,3 +20,5 @@ fields:
   name: fields
   label: Fields
   template: form-fields
+pages:
+- content/contact.md
