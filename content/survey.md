@@ -45,6 +45,5 @@ label = "Is there anything we can do to make our app easier to use?"
 name = "ux_suggestions"
 template = "textarea"
 type = "textarea"
-[[form.sections]]
 
 +++
